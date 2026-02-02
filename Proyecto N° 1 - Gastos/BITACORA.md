@@ -2,7 +2,7 @@
 
 ---
 
-## 31-01-2026-__
+## 31-01-2026
 ### Trabajo realizado
 - Se seleccionó un dataset de gastos personales con el objetivo de trabajar sobre datos transaccionales reales.
 - Se implementó un sistema de rutas robustas para garantizar que el archivo CSV pueda ser localizado independientemente del directorio de ejecución.
@@ -16,3 +16,16 @@
 - Implementar el módulo `transform.py` para procesar la columna de fecha, separándola en componentes temporales (año, mes, día y hora) y preparar el dataset para el análisis exploratorio.
 
 ---
+
+## 02-02-2026
+### Trabajo realizado
+- Se implemento el modulo `transform.py` con el fin de modificar el dataframe, obteniendo fechas mas precisas y logrando limpiar los datos.
+- Se creó un sistema para crear y colocar el nuevo dataframe junto con el original en la carpeta de `data`.
+- Se implemento un sistema capaz de eliminar las filas que contengan un elemento de fecha o monto erroneo o nulo.
+
+### Problemas encontrados
+- Complejidad para hallar los valores erroneo o nulos.
+- Fue necesario comprender cules son y como funcionan las funciones relacionadas con los nulls en `pandas`.
+
+### Próximo paso
+- Implementar el módulo `analysis.py` para poder entender la información recopilada y conseguir conclusiones a partir de ellas.

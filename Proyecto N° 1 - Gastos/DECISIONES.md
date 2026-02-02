@@ -61,3 +61,21 @@
 - Se reduce el riesgo de pérdida de información original.
 
 ---
+
+## Decisión 4
+**Fecha:** 2026-02-02
+
+**Decisión tomada:**  
+- Eliminar las filas que se encuentren con datos no validos.
+
+**Alternativas consideradas:**  
+- Separar las filas erroneas, asignandolas a un nuevo dataframe.
+
+**Motivo:**  
+- Las secciones eliminadas se consideran completamente inservibles.
+- Disminuye la cantidad total de información.
+
+**Consecuencias:**  
+- Capacidad de acceder directamente a un archivo con la informacion util.
+
+---

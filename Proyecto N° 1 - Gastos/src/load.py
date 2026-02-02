@@ -10,17 +10,16 @@ FileRoot = ProyectRoot / 'data' / 'raw.csv'
 
 # Asignar el csv a una variable
 db = pd.read_csv(FileRoot)
-tags = []
-examples = []
 
-# Encontrar valores descriptivos
-for column in db:
-    tags.append(column)
-    if (column == "amount"):
-        # En caso que sea un numero con coma asignarlo automaticamente
-        examples.append(float(db.loc[0, column]))
-    else:
-        examples.append(db.loc[0, column])
+def info(data):
+    """
+    Este funcion permite al usuario visualizar los
+    valores y secciones que componen la base de datos
+    """
+    examples = []
 
-print(f"Etiquetas\n{tags}\n")
-print(f"Ejemplo con valores reales\n{examples}\n")
+    examples.append(db.loc[0])
+    print(f"Etiquetas\n{db.columns}\n")
+    print(f"Ejemplo con valores reales\n{examples}\n")
+
+info(db)
