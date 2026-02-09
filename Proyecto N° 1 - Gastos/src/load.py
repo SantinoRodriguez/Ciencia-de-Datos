@@ -1,7 +1,5 @@
 from pathlib import Path
 import pandas as pd
-import os
-os.system('cls')
 
 # Encontar la ruta del archivo CSV desde el archivo PY
 ActualRoot = Path(__file__).resolve().parent

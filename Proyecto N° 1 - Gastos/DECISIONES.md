@@ -79,3 +79,21 @@
 - Capacidad de acceder directamente a un archivo con la informacion util.
 
 ---
+
+## Decisión 5
+**Fecha:** 2026-09-02
+
+**Decisión tomada:**  
+- Leer unicamente el archivo transform.csv y no el dataframe `db`.
+
+**Alternativas consideradas:**  
+- Leer directamente el dataframe `db` creado en el modulo `Transform.py`.
+
+**Motivo:**  
+- Crear un sistema con mayor solides al no depender de diversos modulos en simultaneo,
+desacoplando etapas del pipeline.
+
+**Consecuencias:**  
+- Capacidad de acceder directamente a un archivo con la informacion util.
+
+---

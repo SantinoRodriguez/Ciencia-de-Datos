@@ -29,3 +29,17 @@
 
 ### Próximo paso
 - Implementar el módulo `analysis.py` para poder entender la información recopilada y conseguir conclusiones a partir de ellas.
+
+---
+
+## 09-02-2026
+### Trabajo realizado
+- Se implemento el modulo `analysis.py` con el fin de hacer los calculos pertinentes al analisis del dataframe.
+- Se alcanzo a responder cuales eran los maximos gastos de cada columna (año, mes, dia, hora y categoria)
+
+### Problemas encontrados
+- Complejidad para analizar dos columnas al mismo tiempo.
+- Fue necesario comprender el funcionamiento de la función `groupby`.
+
+### Próximo paso
+- Complejizar el módulo `analysis.py` con el fin de poder responder preguntas mas profundas y complejas.
