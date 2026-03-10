@@ -43,3 +43,19 @@
 
 ### Próximo paso
 - Complejizar el módulo `analysis.py` con el fin de poder responder preguntas mas profundas y complejas.
+
+---
+
+## 10-03-2026
+### Trabajo realizado
+- Se expandio el módulo `analysis.py`, agregando nuevos reportes y agrupandolos en funciones para mejorar
+  su funcionalidad.
+- Se hizo una diferenciación entre la sección que mas dinero habia recaudado y la que mas veces lo habia
+  hecho, es decir, diferencia entre total y promedio.
+
+### Problemas encontrados
+- X
+
+### Próximo paso
+- Realizar un analisis profundo fuera del entorno de la programacion, utiizando graficos.
+- Implementar automatización del análisis.

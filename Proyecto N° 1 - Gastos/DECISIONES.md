@@ -97,3 +97,22 @@ desacoplando etapas del pipeline.
 - Capacidad de acceder directamente a un archivo con la informacion util.
 
 ---
+
+## Decisión 6
+**Fecha:** 2026-10-03
+
+**Decisión tomada:**  
+- Reemplazar los print's simples por funciones que reproduzcan información
+  al ser llamadas.
+
+**Alternativas consideradas:**  
+- Crear una cadena de prints con informacion estatica.
+
+**Motivo:**  
+- Mejorar la experiencia de uso y facilitar la busqueda de información en caso
+  de desear tener diferentes reportes.
+
+**Consecuencias:**  
+- Mayor velocidad de trabajo.
+
+---
