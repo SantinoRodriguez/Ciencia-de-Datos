@@ -56,22 +56,15 @@ PROYECTO N°1 - GASTOS/
 │   ├── raw.csv              # Datos originales sin modificar
 │   └── transform.csv        # Datos limpios y transformados
 ├── src/
+│   ├── __init__.py          # Inicialización del paquete
 │   ├── load.py              # Ingesta y carga de datos
 │   ├── transform.py         # Limpieza y transformación
 │   └── analysis.py          # Análisis exploratorio
-├── docs/                    # Documentación adicional
-├── logs/                    # Registros de ejecución (opcional)
-└── README.md
+│   └── visualization.py     # Visualizaciones
+├── docs/                    # Documentación adicional / Visualizaciones
+├── README.md
+└── main.py
 ```
-
-## Estado del Proyecto
-
-- ✅ Ingesta de datos
-- ✅ Validación y limpieza
-- ✅ Transformación del dataset
-- ⬜ Análisis exploratorio
-- ⬜ Almacenamiento en base de datos (opcional)
-- ⬜ Generación de reportes
 
 ## Limitaciones
 
@@ -81,4 +74,10 @@ PROYECTO N°1 - GASTOS/
 
 ## Ejecución
 
-La forma de ejecución del proyecto será documentada una vez finalizada la etapa de análisis, detallando los pasos necesarios para reproducir el pipeline completo desde la ingesta hasta la generación de conclusiones.
+La forma de ejecución del proyecto consiste en ejecutar el archivo main.py, el cual se encuentra en la carpeta src.
+
+```bash
+python src/main.py
+```
+
+El resultado de la ejecución será un archivo transform.csv en la carpeta data/ y un conjunto de graficos en la carpeta docs/.
